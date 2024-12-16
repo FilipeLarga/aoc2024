@@ -35,7 +35,7 @@ enum DisablingStage {
 }
 
 fn main() {
-    let data = fs::read_to_string("src/input.txt").unwrap();
+    let data = fs::read_to_string("day_3/src/input.txt").unwrap();
 
     let mut parsing_stage = ParsingStage::Start;
     let mut enabling_stage = EnablingStage::Start;

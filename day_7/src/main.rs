@@ -62,7 +62,7 @@ impl Equation {
 }
 
 fn main() {
-    let data = std::fs::read_to_string("src/input.txt").unwrap();
+    let data = std::fs::read_to_string("day_7/src/input.txt").unwrap();
 
     let equations: Vec<Equation> = data
         .lines()

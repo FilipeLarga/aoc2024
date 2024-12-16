@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main() {
-    let data = fs::read_to_string("src/input.txt").unwrap();
+    let data = fs::read_to_string("day_4/src/input.txt").unwrap();
 
     let mut matrix: Vec<Vec<char>> = Vec::new();
 

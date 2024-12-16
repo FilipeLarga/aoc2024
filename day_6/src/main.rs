@@ -40,7 +40,7 @@ enum MoveError {
 }
 
 fn main() {
-    let data = fs::read_to_string("src/input.txt").unwrap();
+    let data = fs::read_to_string("day_6/src/input.txt").unwrap();
 //     let data = "....#.....
 // ....^....#
 // ..........

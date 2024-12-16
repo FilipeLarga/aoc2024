@@ -2,7 +2,7 @@ use std::fs;
 use std::iter;
 
 fn main() {
-    let data = fs::read_to_string("/home/flarga/Projects/aoc24/day_1/input.txt").unwrap();
+    let data = fs::read_to_string("day_1/input.txt").unwrap();
 
     let size = data.lines().count();
 

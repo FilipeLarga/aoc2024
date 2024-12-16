@@ -4,7 +4,7 @@ use std::fs;
 use std::ops::Div;
 
 fn main() {
-    let data = fs::read_to_string("src/input.txt").unwrap();
+    let data = fs::read_to_string("day_5/src/input.txt").unwrap();
     //     let data = "47|53
     // 97|13
     // 97|61

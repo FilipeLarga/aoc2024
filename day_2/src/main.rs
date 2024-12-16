@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main() {
-    let data = fs::read_to_string("/home/flarga/Projects/aoc24/day_2/input.txt").unwrap();
+    let data = fs::read_to_string("day_2/input.txt").unwrap();
 //     let data = "7 6 4 2 1
 // 1 2 7 8 9
 // 9 7 6 2 1
